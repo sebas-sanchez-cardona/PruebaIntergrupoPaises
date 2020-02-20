@@ -22,6 +22,7 @@ export default class PaisesIntergrupo extends React.Component<IPaisesIntergrupoP
     this.inicializarEstado();
     this.inicializarEventsHandler();
   }
+  
 //inicializador de varibales de estado
   private inicializarEstado() {
     this.state = {
